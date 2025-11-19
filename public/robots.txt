@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Disallow API routes
+Disallow: /api/
+Disallow: /_next/
+Disallow: /temp/
+
+# Sitemap
+Sitemap: https://articlevault.com/sitemap.xml
+
+# Crawl delay (optional, adjust based on your server capacity)
+Crawl-delay: 1
